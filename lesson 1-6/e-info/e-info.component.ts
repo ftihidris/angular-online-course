@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../services/data/data.service';
+
 import { NgFor } from '@angular/common';
 import { FormsModule, NgForm } from '@angular/forms';
+import { DataService } from '../../src/app/services/data/data.service';
 
 @Component({
   selector: 'app-e-info',
